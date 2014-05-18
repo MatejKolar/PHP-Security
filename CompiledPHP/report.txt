@@ -1,0 +1,5 @@
+﻿Kontrola bezpečnosti PHP serveru: 
+#################################
+Tato velikost by měla odpovídat požadavkům vaší aplikace.Maximální velikost nahrávaného souboru je: 2M
+Tato velikost by měla odpovídat požadavkům vaší aplikace.Vlastnost PHP "file_uploads" je povolena. Tato vlastnost umožňuje nahrávání souborů na server pomocí PHP. Pokud ji nevyužíváte, zvažte její vypnutí.Maximální počet současně nahrávaných souborů je: 20
+Tato velikost by měla odpovídat požadavkům vaší aplikaceAdresář dočasných souborů je: c:/wamp/tmpVlastnost "diplay_errors" je povolena. Zobrazují se všechny chyby v kódu PHP. Používejte ji pouze pro vývojářské potřeby.  Vlastnost "diplay_startup_errors" je povolena. Zobrazují se chyby při spuštění PHP. Používejte ji pouze pro vývojářské potřeby.Vlastnost PHP "expose_php" je povolena,umožňuje potenciálním útočníkům dozvědět se, jakou verzi PHP používáte.

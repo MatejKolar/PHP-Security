@@ -1,0 +1,39 @@
+﻿Kontrola bezpečnosti PHP serveru: 
+#################################
+
+Vlastnost "allow_url_fopen" je povolena.
+Umožňuje potenciální zneužití pro provedení škodlivého kódu.
+Pokud ji nepoužíváte, vypněte ji.
+
+Vlastnost "open_base_dir" není nastavena. 
+Zvažte její nastavení, zvýšíte tím bezpečnost před souborovými útoky. 
+
+Vlastnost "disable_functions" je vypnuta.
+Tato vlastnost umožňuje vypnutí některých funkcí systému pro zvýšení bezpečnosti.
+
+Limit omezení paměti je: 128M
+Tato velikost by měla odpovídat požadavkům vaší aplikace.
+
+Maximální velikost nahrávaného souboru je: 2M
+Tato velikost by měla odpovídat požadavkům vaší aplikace.
+
+Vlastnost PHP "file_uploads" je povolena. 
+Tato vlastnost umožňuje nahrávání souborů na server pomocí PHP. 
+Pokud ji nevyužíváte, zvažte její vypnutí.
+
+Maximální počet současně nahrávaných souborů je: 20
+Tato velikost by měla odpovídat požadavkům vaší aplikace
+
+Adresář dočasných souborů je: c:/wamp/tmp
+
+Vlastnost "display_errors" je povolena. 
+Zobrazují se všechny chyby v kódu PHP. 
+Používejte ji pouze pro vývojářské potřeby.  
+
+Vlastnost "display_startup_errors" je povolena. 
+Zobrazují se chyby při spuštění PHP. 
+Používejte ji pouze pro vývojářské potřeby.
+
+Vlastnost PHP "expose_php" je povolena,
+umožňuje potenciálním útočníkům dozvědět se, jakou verzi PHP používáte.
+
